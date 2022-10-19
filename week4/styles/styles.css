@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(251, 165, 200);
+    font-family:  helvetica, arial, sans-serif, verdana;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  h1:hover {
+    color: black;
+  }
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 98%;
+    font-weight: normal;
+    margin: 0 auto;
+    width: 500px;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+p {
+    margin: 0 auto;
+    width: 500px;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 200%;
+}
+img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding: 2%;
+}
+h4 {
+    font-family: times;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin: 0 auto;
+    width: 450px; 
+    padding: 2%;     
+}
+footer p {
+    font-family:  arial, sans-serif, verdana;
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    line-height: 130%;
+}
