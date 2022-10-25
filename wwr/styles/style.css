@@ -1,14 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@700&family=Roboto+Mono&display=swap');
+
 body {
     background-color: #F0F4F2;
+    font-family: "Roboto Mono", arial, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header {
     background-color: #356DAD;
 }
+h2 {
+    margin: 0;
+}
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -24,6 +37,7 @@ nav a {
   text-align: center;
   color: white;
   text-decoration: none;
+  padding: 35px;
 }
 nav a:hover {
     background-color: white;
@@ -31,19 +45,31 @@ nav a:hover {
 }
 .home-title {
     color: #19384D;
+    font-family: "Edu QLD Beginner", Verdana, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
-    color: #356DAD
+    color: #356DAD;
+    font-family: "Edu QLD Beginner";
 }
 .book {
     background-color: #A4876A;
-    color: #F0F4F2;
+    color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
     background-color: #F0F4F2;
     color: #19384D;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #A4876A;
@@ -54,14 +80,30 @@ h4 {
     background-color: #19384D;
     color: #356DAD;
 }
+.card-img {
+    border: 10px solid #19384D;
+}
+.river-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
 .msg {
     background-color: #356DAD;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #F0F4F2;
 }
 .msg p {
     color: #F0F4F2;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -75,6 +117,9 @@ h4 {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;    
+}
 #background {
     height: 725px;
     background-color: #A4876A;
@@ -82,6 +127,8 @@ main section {
 footer {
     background-color: #356DAD;
     color: #F0F4F2;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #F0F4F2;
@@ -95,4 +142,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social img { 
+padding-top: 15px;
 }

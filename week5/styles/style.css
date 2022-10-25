@@ -1,0 +1,34 @@
+body {
+    background-color: gray;
+}
+#desk {
+    border: 20%;
+    border-color: black;
+    width: 20%;
+    padding: 100px;
+    border-color: darkgrey;
+    border-radius: 50%;
+}
+#logo {
+    width: 20%;
+    padding: 100px;
+    border-radius: 50%;
+    background-color: dark grey;
+
+}
+#person {
+    width: 20%;
+    border-radius: 50%;
+    padding: 100px;
+
+}
+#images-box {
+    width: 100%;
+    padding-left: 30px;
+}
+.title {
+    width: 100%;
+    margin-bottom: 90px;
+    
+
+}
