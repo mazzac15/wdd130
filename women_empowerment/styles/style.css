@@ -1,10 +1,183 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shadows+Into+Light&display=swap');
 
+
+/*Font Families
+ font-family: 'Montserrat', sans-serif;
+font-family: 'Shadows Into Light', cursive; */
+
+/* Color Scheme
+<tr><td class="primary">#07b18f</td><td class="secondary">#085e45</td><td class="accent1">#0c0c03</td><td class="accent2">#493a23</td></tr>
+      </table>*/
 body {
-    font-family: "IM Fell French Canon SC"
+    background-color: white;
+    font-family: Montserrat, sans-serif, arial;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;    
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    background-color: #085e45;
+    display: grid;
+    grid-template-columns: 125px auto;
+}
+.logo {
+    width: 120px;
+}
+#logo_link {
+    padding: 10px;
+    padding-left: 50px;
+    justify-self: center;
+    align-self: center;
+}
+.home-title {
+    color: #F0F4F2;
+    font-family: 'Shadows Into Light';
+    font-size: 50px;
+    margin-left: 35px;
+}
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+    margin-top: 25px;
+}
+nav a:hover {
+      background-color: white;
+      color: #07b18f;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.purpose {
+    
+    line-height: 1.3em;
+    padding: 35px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+    max-height: 600px;
+    margin: 0 auto;
+    
+}
+.purpose h2 {
+    color: #F0F4F2;
+    font-family: 'Shadows Into Light';
+}
+.purpose p {
+    color: #F0F4F2;
+    font-size: .7em;
+}
+.woman_collaborating {
+    width: 90%;
+    grid-column: 2/4;
+    grid-row: 1;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+}
+.title-box {
+    grid-column: 2/3;
+    grid-row: 2;
+    width: 100%; 
+}
+.title-box h1 {
+    color: white;
+    background-color: #085e45;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 25px;
+    font-family: 'Shadows Into Light';
+}
+.title-box h2 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.card-img {
+    border: 10px solid white;
+    width: 80%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 75px;
+    padding: 10px;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+h2 {
+    margin: 0;
+    padding-top: 25px;
+}
+.olga {
+    margin: 200px 0;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: white;
+}
+.olga p {
+    padding: 22px;
+    color: white;
+}
+.paola {
+    margin: 200px 0;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: white;
+}
+.paola p {
+    padding: 22px;
+    color: white;
+}
+.veronica {
+    margin: 200px 0;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    color: white;
+    
+}
+.veronica p {
+    padding: 22px;
+    color: white;
+    
+}
+#background {
+    /* height: 600px; */
+    background-color: #07b18f;
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+main section {
+    text-align: center;
+}
+main section img {
+    box-sizing: border-box;    
+}
+footer {
+    background-color: #085e45;
+    color: #F0F4F2;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #F0F4F2;
+    text-decoration: none;
 }
