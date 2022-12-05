@@ -182,6 +182,7 @@ input[type=text] {
     display: block;
     width: 100%;
     height: auto;
+    border: solid #085e45;
 }
   
 .overlay {
