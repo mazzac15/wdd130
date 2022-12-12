@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shadows+Into+Light&display=swap');
+
+body {
+    background-color: white;
+    font-family: Montserrat, sans-serif, arial;
+    font-size: 34px;
+    padding: 0px;
+    margin: 0px;    
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    background-color: #085e45;
+    display: grid;
+    grid-template-columns: 125px auto;
+}
+.logo {
+    width: 120px;
+}
+#logo_link {
+    padding: 10px;
+    padding-left: 50px;
+    justify-self: center;
+    align-self: center;
+}
+.home-title {
+    color: #F0F4F2;
+    font-family: 'Shadows Into Light';
+    font-size: 50px;
+    margin-left: 35px;
+}
+nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+    margin-top: 25px;
+}
+nav a:hover {
+    background-color: white;
+    color: #07b18f;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#hero-img {
+    width: 100%;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;   
+}
+#hero-msg {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-top: 250px;
+}
+
+#hero-msg h1 {
+    text-align: left;
+    font-size: 22px;
+    color: white;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+div.hero-background {
+    background: url(klematis.jpg) repeat;
+    margin: 20px;
+    padding-top: 35px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+  
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+  
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.resources-grid {
+    margin-top: -10px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.resources_list-img {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    width: 100%;
+    padding: 65px 20px;
+    margin: 0 auto;
+}
+.awbc {
+    line-height: .8em;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    margin: 0 auto;
+}
+.awbc h1{
+    color: white;
+    font-family: 'Shadows Into Light';
+    font-size: 22px;
+}
+.awbc h2 {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+.mae {
+    line-height: .8em;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    margin: 0 auto;
+}
+.mae h1 {
+    color: white;
+    font-family: 'Shadows Into Light';
+    font-size: 22px;
+}
+.mae h2 {
+    color: white;
+    grid-column: 2/4;
+    font-size: 18px;
+    text-align: left;
+}
+.woman2woman {
+    line-height: .8em;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    margin: 0 auto;
+}
+.woman2woman h1 {
+    color: white;
+    font-family: 'Shadows Into Light';
+    font-size: 22px;
+}
+.woman2woman h2 {
+    color: white;
+    grid-column: 2/4;
+    font-size: 18px;
+    text-align: left;
+}
+#background {
+    background-color: #07b18f;
+
+}
+main section {
+    text-align: center;
+}
+main section img {
+    box-sizing: border-box;    
+}
+
+  
+footer {
+    font-size: 22px;
+
+    background-color: #085e45;
+    color: #F0F4F2;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #F0F4F2;
+    text-decoration: none;
+}
